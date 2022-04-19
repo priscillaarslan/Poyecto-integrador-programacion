@@ -211,22 +211,13 @@
   padding-right: 0.5cm;
 }
 
-/*/Canciones/*/
+/*/Resultados de busqueda/*/
 .article3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.agregar {
-  color: rgb(255, 255, 255);
-  font-size: 13px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  padding-bottom: 0.8cm;
-  font-weight: bolder;
-}
 
 .img2 {
   width: 200px;
@@ -240,6 +231,7 @@
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 .listadetalle2 {
@@ -272,6 +264,20 @@
 
 /*/Detallecanciones/*/
 .iframe5{width: 250px; height: 250px;}
+.listadetalle5{list-style: square; font-size: 25px; color: white;}
+
+.agregar {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding-bottom: 0.8cm;
+  font-weight: bolder;
+}
+
+
+
 
 /*/Genero/*/
 
@@ -602,29 +608,43 @@ color: white;
    .firstbody{height: 1000px;}
 
 
-
  /*/Query detalle de artista /*/
  .artistas{font-size: 10px; margin-right: 1cm;}
 .img5{width: 150px;}
 .iframe3{width: 150px;}
 .buscador1{margin-right: 0.8cm;}
-.div1{width: 70%;}
+.div1{width: 100%;}
 .divgeneral{height: 5000px;}
 .firstbody{height: 5000px;}
 
 
-=
+
+   /*/Query detalle de canciones /*/
+<<<<<<< HEAD
+   .divgeneral{width: 12%; height: 4500px;}
+   .firstbody{height: 1500px;}
+   .tdivgeneral{font-size: 6px;}
+   .extras{font-size: 6px;}
+   .listadetalle5{font-size: 15px;}
+   .buscador1{width: 68%; }
+   .list3{font-size: 10px;}
+   .agregar{font-size: 10px;}
+   .iframe5{width: 60%;}
+   .section3{padding-right: 2cm;}
+
+=======
+   .divgeneral{width: 20%; height: 5500px;}
+   .section3{width: 200px;}
+   .buscador1{margin-right: 0.8cm;}
+   .div1{width: 100%;}
+   .footer{width: 95%}
+   
+>>>>>>> 90e8f82d3867a5855bf5b120bac0787940d46517
+
+   /*/Query de detalle de disco  /*/
 
 
- 
-
- /*/Query de detalle de disco  /*/
-
-
-  /*/Query detalle de album /*/
-
-   /*/Query detalle de disco /*/
-
+  /*/Resultado de busqueda /*/
 
 
 
