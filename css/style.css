@@ -566,6 +566,7 @@
 }
 
 /*/Media Query /*/
+<<<<<<< HEAD
 /*/Small devices, tablets /*/
 @media (max-width: 420px) {
 
@@ -593,6 +594,38 @@
 .div1{width: 100%;}
 .divgeneral{height: 5000px;}
 .firstbody{height: 5000px;}
+=======
+
+@media (max-width: 1000px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  ul,
+  ol {
+    padding: 0%;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+
+  
+
+  
+
+   
+
+
+
+>>>>>>> 49edd95a2d28d7849bf7cfe4380171b1516d074f
 
 
 /*/Query detalle de canciones /*/
@@ -608,6 +641,12 @@
    .section10{width: 200px;}
    .div1{width: 100%;}
 
+<<<<<<< HEAD
    /*/Query resultados de busqueda /*/
    
 }
+=======
+  
+
+
+>>>>>>> 49edd95a2d28d7849bf7cfe4380171b1516d074f
