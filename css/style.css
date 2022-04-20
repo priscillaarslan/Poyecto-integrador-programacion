@@ -218,7 +218,6 @@
   flex-direction: column;
 }
 
-
 .img2 {
   width: 200px;
   height: 190px;
@@ -231,7 +230,7 @@
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    text-align: justify;
+  text-align: justify;
 }
 
 .listadetalle2 {
@@ -263,8 +262,15 @@
 }
 
 /*/Detallecanciones/*/
-.iframe5{width: 250px; height: 250px;}
-.listadetalle5{list-style: square; font-size: 25px; color: white;}
+.iframe5 {
+  width: 250px;
+  height: 250px;
+}
+.listadetalle5 {
+  list-style: square;
+  font-size: 25px;
+  color: white;
+}
 
 .agregar {
   color: rgb(255, 255, 255);
@@ -275,9 +281,6 @@
   padding-bottom: 0.8cm;
   font-weight: bolder;
 }
-
-
-
 
 /*/Genero/*/
 
@@ -313,13 +316,13 @@
 
 .h1detalles2 {
   display: flex;
- margin-left: 10px;
+  margin-left: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.h1detalless{
-font-size: 30px;
-color: white;
+.h1detalless {
+  font-size: 30px;
+  color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -354,8 +357,6 @@ color: white;
   color: white;
 }
 
-
-
 .div3 {
   color: white;
   text-align: center;
@@ -381,7 +382,7 @@ color: white;
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.divcaja{
+.divcaja {
   margin-left: 10px;
 }
 
@@ -415,8 +416,6 @@ color: white;
 }
 
 /*/Termina/*/
-
-
 
 .reproduccion {
   display: flex;
@@ -567,39 +566,17 @@ color: white;
 }
 
 /*/Media Query /*/
-
-@media (max-width: 1000px) {
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-  }
-  ul,
-  ol {
-    padding: 0%;
-  }
-  li {
-    list-style-type: none;
-  }
-  a {
-    text-decoration: none;
-    color: #000;
-  }
-}
-
 /*/Small devices, tablets /*/
 @media (max-width: 420px) {
 
 
-   /*/Query de index /*/
-
+  /*/Query de index /*/
   .divgeneral{width: 20%; height: 5500px;}
   .tdivgeneral{font-size: 8px; margin-left: 0.2cm;}
   .extras{font-size: 8px; margin: 2}
 
 
-   /*/Query de playlist /*/
+  /*/Query de playlist /*/
    .iframe1{margin-right: 1cm; width: 90%;}
 
    /*/Query detalle de genero /*/
@@ -618,29 +595,19 @@ color: white;
 .firstbody{height: 5000px;}
 
 
+/*/Query detalle de canciones /*/
+   .divgeneral{width: 20%; height: 5500px;}
+   .section3{width: 200px;}
+   .buscador1{margin-right: 0.8cm;}
+   .div1{width: 100%;}
+   .footer{width: 95%}
+   
 
-   /*/Query detalle de canciones /*/
-   .divgeneral{width: 12%; height: 4500px;}
-   .firstbody{height: 1500px;}
-   .tdivgeneral{font-size: 6px;}
-   .extras{font-size: 6px;}
-   .listadetalle5{font-size: 15px;}
-   .buscador1{width: 68%; }
-   .list3{font-size: 10px;}
-   .agregar{font-size: 10px;}
-   .iframe5{width: 60%;}
-   .section3{padding-right: 2cm;}
-   .div1{width: 64%;}
+   /*/Query detalle de disco  /*/
+   .section6{width: 400PX;}
+   .section10{width: 200px;}
+   .div1{width: 100%;}
 
-
-   /*/Query de detalle de disco  /*/
-
-
-  /*/Resultado de busqueda /*/
-
-
-
-  }
+   /*/Query resultados de busqueda /*/
+   
 }
-
-
